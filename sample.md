@@ -89,7 +89,7 @@ digraph {
 left to right direction
 actor "学生" as student
 actor "教員" as faculty
-rectangle 履修管理システム {
+rectangle {
     usecase "成績を確認する" as chkgrd
     usecase "成績を入力する" as setgrd
     usecase "時間割を確認する" as chktbl
